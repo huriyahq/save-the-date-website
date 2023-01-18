@@ -157,11 +157,11 @@ p {
 }
 
 .hero {
+    background-color: var(--light);
     background-image: url("../images/floral-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: var(--light);
     opacity: .9;
     margin: 0 auto;
     min-height: inherit;
@@ -171,7 +171,7 @@ p {
     justify-content: center;
     align-items: center;
     flex: 1;
-    backdrop-filter: contrast(0%) brightness(2);
+    /* backdrop-filter: contrast(0%) brightness(2); */
     transition: all ease-in-out 0.5s;
     /* transition: backdrop-filter 2s, opacity ease-in-out .5s; */
 }

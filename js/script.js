@@ -8,9 +8,9 @@ heart.addEventListener("click", () => {
 
 });
 
-window.addEventListener("load", () => {
-    document.getElementById("hero").style.backdropFilter = ""
-});
+// window.addEventListener("load", () => {
+//     document.getElementById("hero").style.backdropFilter = ""
+// });
 
 window.onresize = function() {
     // navMenu.classList.remove("show-menu");
