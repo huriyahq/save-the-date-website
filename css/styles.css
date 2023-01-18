@@ -156,7 +156,7 @@ p {
   opacity: .6;
 }
 
-#hero {
+.hero {
     background-image: url("../images/floral-bg.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -176,7 +176,7 @@ p {
     /* transition: backdrop-filter 2s, opacity ease-in-out .5s; */
 }
 
-#hero:hover {
+.hero:hover {
   opacity: 1;
 }
 
