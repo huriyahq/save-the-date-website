@@ -130,15 +130,19 @@ p {
   transition: all linear 0.2s;
 }
 
+.nav-menu a {
+  color: var(--pink);
+  font-weight: 700;
+  font-size: 1.2em;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all linear 0.2s;
+}
+
 .nav-menu a:link {
-    color: var(--pink);
-    opacity: 1;
-    font-weight: 700;
-    font-size: 1.2em;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: all linear 0.2s;
+  color: var(--pink);
+  opacity: 1;
 }
 
 .nav-menu a:visited {
