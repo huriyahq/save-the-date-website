@@ -172,7 +172,8 @@ p {
     align-items: center;
     flex: 1;
     backdrop-filter: contrast(0%) brightness(2);
-    transition: backdrop-filter 2s, opacity ease-in-out .5s;
+    transition: all ease-in-out 0.5s;
+    /* transition: backdrop-filter 2s, opacity ease-in-out .5s; */
 }
 
 #hero:hover {
